@@ -15,7 +15,7 @@ export const Login: FC = () => {
       alignItems="center"
       flexDirection="column"
     >
-      <img height="auto" src={login} style={{ maxWidth: "80%" }} />
+      <img alt="logo" height="auto" src={login} style={{ maxWidth: "80%" }} />
       <Box>
         <Button
           variant="contained"

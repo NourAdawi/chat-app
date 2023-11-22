@@ -1,5 +1,3 @@
-// import { useState } from "react";
-
 import { ThemeProvider } from "@mui/material/styles";
 import { FirebaseProvider } from "./services/firebaseContext";
 
