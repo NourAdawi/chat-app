@@ -1,27 +1,43 @@
-# React + TypeScript + Vite
+# Real-Time Chat App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This Real-Time Chat App specializes in fostering immediate connections through authenticated user rooms, tailored exclusively for text messages.## Installation
 
-Currently, two official plugins are available:
+## Built With
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[![My Skills](https://skillicons.dev/icons?i=vite,typescript,firebase,mui&theme=dark)](https://skillicons.dev)
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1- Clone the repo
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+```bash
+git clone https://github.com/NourAdawi/chat-app.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2- Install NPM packages
+
+```bash
+npm install
+```
+
+3- Run react server
+
+```bash
+npm run dev
+```
+
+## Usage
+
+### Logging In:
+
+- To access the Real-Time Chat App, users are required to log in using their Google accounts. This authentication process ensures a secure and seamless experience.
+  Google Login
+  Screenshot: Users can log in securely with their Google accounts.
+
+### Starting a Chat:
+
+Once logged in, users are directed to authenticated user rooms, providing a trusted space for text-based conversations.
+
+### Initiating Conversations:
+
+Users can start a chat immediately. The focus is on immediate connections through text messages.
