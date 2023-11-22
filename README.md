@@ -2,6 +2,10 @@
 
 This Real-Time Chat App specializes in fostering immediate connections through authenticated user rooms, tailored exclusively for text messages.## Installation
 
+## Live Demo
+
+https://chat-app-9cf95.web.app/
+
 ## Built With
 
 [![My Skills](https://skillicons.dev/icons?i=vite,typescript,firebase,mui&theme=dark)](https://skillicons.dev)
