@@ -54,7 +54,7 @@ export const MessageWrapper: FC<Props> = ({
       <Box>
         {!within1Hour && curretDateForDisplay !== "Invalid Date" && (
           <Typography
-            mb={1}
+            mt={1}
             display="flex"
             justifyContent="center"
             variant="caption"
